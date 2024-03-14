@@ -1,0 +1,10 @@
+[package]
+name = "rss2bsky"
+description = "Send an RSS feed to Bluesky"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+feed-rs = "^1.4"
+atrium-api = "^0.18"
